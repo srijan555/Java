@@ -31,7 +31,7 @@ public class AutomationTestingApplication {
 		driver.navigate().back();
 
 		// Click on the textbox and send value
-		driver.findElement(By.id("fname")).sendKeys("JavaTpoint");
+		driver.findElement(By.id("fname")).sendKeys("Srijan");
 
 		// Clear the text written in the textbox
 		driver.findElement(By.id("fname")).clear();
